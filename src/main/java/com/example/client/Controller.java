@@ -26,6 +26,6 @@ public class Controller {
 
     @FXML
     void sendd(){
-    data.println(name.getText() + ":" + answer.getText() + "\n");
+    data.println(name.getText() + ":" + answer.getText());
     }
 }
